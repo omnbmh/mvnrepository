@@ -5,7 +5,7 @@
   <groupId>org.github.omnbmh</groupId>
   <artifactId>omnbmh-commons</artifactId>
   <name>omnbmh-commons</name>
-  <version>0.2</version>
+  <version>0.3</version>
   <properties>
     <!-- 项目启动指定的启动类 -->
     <start-class>org.github.omnbmh.commons.Main</start-class>
