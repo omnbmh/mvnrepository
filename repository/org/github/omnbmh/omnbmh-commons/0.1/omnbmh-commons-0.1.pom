@@ -10,6 +10,12 @@
     <!-- 项目启动指定的启动类 -->
     <start-class>org.github.omnbmh.commons.Main</start-class>
   </properties>
+  <distributionManagement>
+    <repository>
+      <id>hengyunabc-mvn-repo</id>
+      <url>file:/Users/chendezhi/.m2/repository/</url>
+    </repository>
+  </distributionManagement>
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
     <dependency>
@@ -40,11 +46,15 @@
       <artifactId>commons-lang</artifactId>
       <version>2.6</version>
     </dependency>
+
+    <!-- 用于http调用 -->
+    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
     <dependency>
-      <groupId>commons-httpclient</groupId>
-      <artifactId>commons-httpclient</artifactId>
-      <version>3.1</version>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5.6</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
     <dependency>
       <groupId>org.apache.poi</groupId>
@@ -59,6 +69,7 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
+    <!-- 修改PDF 支持颗粒度较细 复杂 简单的可使用 apacha pdfbox -->
     <dependency>
       <groupId>com.itextpdf</groupId>
       <artifactId>itextpdf</artifactId>
@@ -91,6 +102,16 @@
       <groupId>com.jcraft</groupId>
       <artifactId>jsch</artifactId>
       <version>0.1.53</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>pdfbox</artifactId>
+      <version>2.0.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>pdfbox-tools</artifactId>
+      <version>2.0.4</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
