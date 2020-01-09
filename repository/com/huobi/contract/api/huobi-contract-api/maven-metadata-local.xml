@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.huobi.contract.api</groupId>
+  <artifactId>huobi-contract-api</artifactId>
+  <versioning>
+    <release>1.0.1</release>
+    <versions>
+      <version>1.0.1</version>
+    </versions>
+    <lastUpdated>20200109062614</lastUpdated>
+  </versioning>
+</metadata>
